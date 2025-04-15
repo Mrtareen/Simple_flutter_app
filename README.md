@@ -1,16 +1,30 @@
-# simple_flutter_app
+Simple Flutter Web App
+This Flutter web application serves as an introductory example for building web apps with Flutter. It displays the text "Hello, Flutter!" in the browser window, indicating the app is running locally.
 
-A new Flutter project.
+Features
+Simple UI: Shows a basic greeting message ("Hello, Flutter!") for demonstration purposes.
 
-## Getting Started
+Web Support: Runs locally on a development server (localhost).
 
-This project is a starting point for a Flutter application.
+Minimal Design: Focuses on showcasing fundamental Flutter web capabilities.
 
-A few resources to get you started if this is your first Flutter project:
+Installation
+Ensure that Flutter is set up with web support on your system:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+flutter doctor
+Clone this repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+git clone <repository_url>
+cd <repository_folder>
+Run the app in a web browser:
+
+bash
+flutter run -d chrome
+Usage
+Launch the app in your browser.
+
+Observe the message "Hello, Flutter!" displayed at the center.
+
+Modify the code to experiment with basic Flutter web functionalities.
